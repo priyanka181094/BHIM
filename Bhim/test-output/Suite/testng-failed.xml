@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.bhim.npci.endtoend.FeedbackTest">
+        <methods>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="sendFeedback"/>
+        </methods>
+      </class> <!-- com.bhim.npci.endtoend.FeedbackTest -->
+      <class name="com.bhim.npci.endtoend.HomeTest">
+        <methods>
+          <include name="checkingBalanceAndVerifyTest"/>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+        </methods>
+      </class> <!-- com.bhim.npci.endtoend.HomeTest -->
+      <class name="com.bhim.npci.endtoend.LanguageTest">
+        <methods>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="verifyLanguageTest"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+        </methods>
+      </class> <!-- com.bhim.npci.endtoend.LanguageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,13 @@
+IPAddress 127.0.0.1
+Port 4723
+PLATFORM_NAME Android
+DEVICE_NAME OnePlus 7 Pro
+AUTOMATION_NAME	UIAutomator2
+UDID adefc858
+appPackage in.org.npci.upiapp
+appActivity	.HomeActivity
+ignoreHiddenApiPolicyError true
+autoGrantPermissions true
+noReset true
+url	http://localhost:4723
+expectedBalance 
